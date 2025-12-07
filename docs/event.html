@@ -17,7 +17,7 @@
     <meta name="twitter:image" content="https://owensj24.github.io/GoPlayX/iconv2.jpeg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="icon.jpeg">
+    <link rel="icon" type="image/jpeg" href="iconv2.jpeg">
 
     <style>
         * {
@@ -127,10 +127,8 @@
         const eventId = urlParams.get('id') || window.location.pathname.split('/').pop().replace('.html', '');
         const eventName = urlParams.get('name') || 'Event';
 
-        // Update page title and Open Graph meta tags with event name
+        // Update page title with event name
         document.title = `RSVP to ${eventName} on GoPlay`;
-        document.getElementById('og-title').setAttribute('content', `RSVP to ${eventName} on GoPlay`);
-        document.getElementById('twitter-title').setAttribute('content', `RSVP to ${eventName} on GoPlay`);
 
         // Construct deep link
         const deepLink = `goplay://event/${eventId}`;
