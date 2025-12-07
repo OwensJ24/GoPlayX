@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "PJRUKK9M79.com.go-play.app",
+        "paths": [
+          "/event/*",
+          "/events/*"
+        ]
+      }
+    ]
+  }
+}
